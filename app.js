@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
     res.render('index.ejs', {
-        title: 'Tes PT Dans Multi Pro',
+        title: 'Test',
         message : 'Trias nitis lazuardi'
     })
 })
@@ -46,7 +46,7 @@ app.listen(port, ()=> {
 //     host: "localhost",
 //     user: "root",
 //     password: "",
-//     database: "testdanse"
+//     database: "testdatabase"
 // }) 
 
 // db.connect((err)=> {
